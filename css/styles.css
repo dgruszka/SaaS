@@ -1,0 +1,28 @@
+.upper-header {
+  display: flex;
+  width: 100%;
+  margin: var(--size-10) var(--size-30);
+  opacity: 0.5;
+}
+
+.main-demo {
+  display: flex;
+  width: var(--size-150);
+}
+
+.demo {
+  display: flex;
+  width: 50px;
+  margin-left: auto;
+}
+
+.docs {
+  display: flex;
+  width: var(--size-50);
+  margin-left: var(--size-30);
+}
+
+.upper-header i {
+  width: var(--size-10);
+  padding: 0 5px;
+}
