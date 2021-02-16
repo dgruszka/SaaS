@@ -19,3 +19,7 @@
   width: var(--size-10);
   padding: 0 5px;
 }
+
+.main-header .logo {
+  max-width: var(--size-150);
+}

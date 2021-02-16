@@ -19,10 +19,12 @@
   width: 100%;
   margin: 0;
   padding: 0;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .header-container {
   display: flex;
+  flex-direction: column;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -33,4 +35,9 @@
   width: 90%;
   margin: var(--size-10) auto 0 auto;
   opacity: 0.5;
+}
+
+.main-header {
+  display: flex;
+
 }
