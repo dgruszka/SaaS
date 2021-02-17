@@ -48,16 +48,28 @@
   margin: auto 0;
 }
 
-.right-main .left-most {
+.main-header .right-main .left-most {
   margin-left: auto;
 }
 
 .main-header .right-main div {
-  max-width: 80px;
+  max-width: var(--size-100);
   text-align: center;
+  margin: auto 0 auto 0;
 }
 
 .main-header .right-main a {
   text-decoration: none;
   margin: var(--size-10);
+  color: var(--black);
+  opacity: 0.5;
+}
+
+.right-main button {
+  max-width: 200px;
+  background-color: var(--blue);
+  color: var(--white);
+  padding: var(--size-10) var(--size-20);
+  border: none;
+  border-radius: var(--size-30);
 }
