@@ -1,23 +1,25 @@
-.main-demo {
+.upper-header .main-demo {
   display: flex;
   width: var(--size-150);
 }
 
-.demo {
+.upper-header .demo {
   display: flex;
   width: 50px;
   margin-left: auto;
 }
 
-.docs {
+.upper-header .docs {
   display: flex;
   width: var(--size-50);
   margin-left: var(--size-30);
+  margin-right: var(--size-10);
 }
 
 .upper-header i {
   width: var(--size-10);
   padding: 0 5px;
+  margin: auto 0;
 }
 
 .main-header .logo {
