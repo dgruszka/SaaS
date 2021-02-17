@@ -45,5 +45,19 @@
 
 .right-main {
   display: flex;
-  margin: auto;
+  margin: auto 0;
+}
+
+.right-main .left-most {
+  margin-left: auto;
+}
+
+.main-header .right-main div {
+  max-width: 80px;
+  text-align: center;
+}
+
+.main-header .right-main a {
+  text-decoration: none;
+  margin: var(--size-10);
 }
